@@ -1,8 +1,17 @@
-.head{
-    background-color: aqua;
- 
+.head {
+background-color: aqua;
+display: flex;
 
 }
-.main-container {
-    display: grid;
+
+
+
+
+.PPimage {
+background-image: url('resources/powerPlant.png');
+background-repeat: no-repeat;
+background-size: auto;
+object-fit:fill;
+height: 40rem;
+width:22rem;
 }
