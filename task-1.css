@@ -4,14 +4,41 @@ display: flex;
 
 }
 
-
-
-
-.PPimage {
-background-image: url('resources/powerPlant.png');
-background-repeat: no-repeat;
-background-size: auto;
-object-fit:fill;
-height: 40rem;
-width:22rem;
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+.first-block {
+    background-image: url('resources/powerPlant.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    width: 70%;
+    height: 20rem;
+    border: .5em solid rgb(255, 0, 0)
+    }
+
+/* @media(min-width:600px) {
+   .PPimage {
+    height:100rem;
+    width:100rem;
+   }
+} */
+
+
+
+.second-block {
+    display:flex;
+    background: white;
+    flex-direction: row;
+    border: .5em solid black;
+}
+
+.robot-img {
+  
+}
+
+
