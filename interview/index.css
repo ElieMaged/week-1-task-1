@@ -1,0 +1,24 @@
+.main-cont {
+    display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.home-button {
+    color: white;
+  border: .1em solid black;
+  padding: .5em 3em .5em 3em;
+    background-color: rgb(43, 43, 255);
+}
+
+.invoice-button {
+    margin: 1em;
+    border-radius: 5px;
+    padding:1em;
+    border:0em solid white;
+    color: white;
+    opacity: .9;
+    box-shadow: 10px 5px 5px white;
+    background: linear-gradient(#ffffff, #000b82);
+}
