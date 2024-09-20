@@ -27,6 +27,9 @@ padding-left:1em;
   background-image: url('resources/powerPlant.png');
   background-repeat: no-repeat;
   display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
   width: 100%;
   height: 50rem;
   margin: 0;
@@ -34,6 +37,22 @@ padding-left:1em;
   background-size: cover; 
 }
 
+.title-h1 {
+  color: aliceblue;
+  font-size: 400%;
+  padding-left:12rem;
+}
+
+.parag {
+  font-size:10vw;
+color: aliceblue;
+  gap: 1.5em;
+  text-wrap: wrap;
+}
+
+.parag-one {
+  padding:0em 0em 0em 1em;
+}
 
 .second-block {
 
@@ -49,8 +68,9 @@ padding-left:1em;
   color: rgb(34, 183, 0);
 }
 
-.list-h-items {
+h2 {
   display: inline;
+  margin-bottom:10em
 }
 
 
@@ -60,7 +80,7 @@ padding-left:1em;
 
 
 .third-block {
-  background-image: url('/resources/third-block.png');
+  background-image: url('/resources/plantThree.png');
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr;
@@ -73,12 +93,25 @@ padding-left:1em;
     display:grid;
     grid-template-columns: repeat(2, 10rem);
   }
+  .parag {
+    font-size:8vw;
+  }
+}
+
+
+@media(min-width:450px) {
+  .parag {
+    font-size:7vw
+  }
 }
 
 @media(min-width:600px) {
   .head {
     display:grid;
     grid-template-columns: repeat(3, 10rem);
+  }
+  .parag {
+    font-size:6vw;
   }
 }
 
@@ -90,6 +123,11 @@ padding-left:1em;
   .second-block {
     grid-template-columns: 1fr 1fr;
   }
+  .parag {
+    font-size:4vh;
+    margin: 0em 5em 0em 5em;
+  }
+  
 }
 
 @media(min-width:900px) {
