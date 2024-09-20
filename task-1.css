@@ -1,6 +1,5 @@
 * { 
-padding:0;
-margin:0;
+
 }
 
 html {
@@ -80,12 +79,22 @@ h2 {
 
 
 .third-block {
-  background-image: url('/resources/plantThree.png');
+  background-image: url('resources/plantThree.png');
   background-repeat: no-repeat;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 50rem;
+  margin: 0;
+  padding: 0;
+  background-size: cover; 
 }
 
+h1 {
+  font-size: .5rem;
+}
 
 
 @media(min-width:350px) {
@@ -96,6 +105,7 @@ h2 {
   .parag {
     font-size:8vw;
   }
+
 }
 
 
@@ -126,6 +136,9 @@ h2 {
   .parag {
     font-size:4vh;
     margin: 0em 5em 0em 5em;
+  }
+  h2 {
+    font-size: 4vh;
   }
   
 }
