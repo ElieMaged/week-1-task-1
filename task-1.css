@@ -40,10 +40,13 @@ padding-left:1em;
 .first-block {
   background-image: url('resources/powerPlant.png');
   background-repeat: no-repeat;
+  padding: 10rem;
+
 }
 
 .first-content {
-  padding: 10rem;
+  padding: 5rem;
+  
 }
 
 
@@ -157,11 +160,12 @@ padding-top: 1em;
 }
 
 .fifth-blurred-box {
+  margin-top: 3rem;
   display: flex;
 flex-direction: column;
 justify-content: center;
   width:80%;
-  height: 50%;
+  height: 75%;
 border-radius: 30px;
  background-color: transparent;
   backdrop-filter: blur(10px);
@@ -283,8 +287,9 @@ padding: 1rem;
 }
 
 #indian {
-width: 15%;
+width: 20%;
 border-radius: 4rem;
+object-fit: cover;
 }
 
 #say-green {
@@ -317,13 +322,14 @@ font-size: 1.5rem;
 
 .eight-svg {
 width: 5%;
+padding: .5rem;
 }
 
 
   /*NINTH BLOCK */
 .ninth-block {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+
   padding: 5rem;
   font-size: .7rem;
   background-color: #283646;
@@ -337,47 +343,24 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: .6rem;
 
 }
 
-.ninth-block-one-one{
+button-input {
   display: flex;
   flex-direction: row;
- gap: 5rem;
- padding-bottom:2rem;
- border-bottom: .001rem solid gray ;
- color: white;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.ninth-block-one-two {
-  display: flex;
-  flex-direction: row;
- gap: 2rem;
- color: gray;
- font-size:.7rem;
- margin:0rem;
-
+inputy {
+position: absolute;
 }
 
-.ninth-block-two {
-  border-radius: 3rem;
-  padding:0rem;
+buttony {
+position: relative;
 }
-
-.ninth-input-button {
-border-radius: 2rem;
-}
-
-
-.inputy {
-  position:absolute right 10rem;
-  
-}
-
-.buttony {
-  float: right;
-}
-
 
 /* media query/responsiveness */
 @media(min-width:350px) {
