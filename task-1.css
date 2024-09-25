@@ -40,35 +40,13 @@ padding-left:1em;
 .first-block {
   background-image: url('resources/powerPlant.png');
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
- height:20rem;
- font-size: 90%;
-  margin: 0;
-  padding: 0;
-  background-position:bottom;
-  gap:1rem;
-  background-size:cover;
 }
 
-.title-h1 {
-  color: aliceblue;
-  font-size: 150%;
- 
+.first-content {
+  padding: 10rem;
 }
 
-.parag {
-  font-size: 1rem;
-color: aliceblue;
-  text-wrap: wrap;
-}
 
-.parag-one {
-  padding:0em 0em 0em 1em;
-}
 
 
 /* second block */
